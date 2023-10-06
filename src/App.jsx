@@ -48,7 +48,7 @@ const App = () => {
         <button
           className="btn"
           onClick={() => {
-            fetchTours;
+            fetchTours();
           }}
         >
           Reload Tours
